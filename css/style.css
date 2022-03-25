@@ -15,59 +15,63 @@ body {
 }
 
 header {
+    margin-top: 1%;
     /* Debug */
     height: 100px;
     background-color: rgb(229, 121, 230);
 }
 
 footer {
-    margin-top: 1%;
+    margin: 1% 0;
     /* Debug */
     height: 50px;
     background-color: rgb(136, 1, 254);
 }
 
 
-.container {
+.container-top {
     margin: 2% 0;
     /* Debug */
-    height: 300px;
+    height: 400px;
     background-color: rgb(225, 214, 122);
 }
 
 .row-title {
-    margin-bottom: 1%;
     /* Debug */
     height: 70px;
     background-color: rgb(171, 207, 231);
 }
 
-/* debug */
-/* .row {
-    border: solid 1px red;
-} */
+
+.row {
+    padding: 1% 0;
+    /* Debug */
+    /* border: solid 1px red; */
+    background-color: rgb(0, 134, 255);
+    
+}
 
 .column-sx {
-    width: 19%;
+    width: 20%;
     float: left;
     /* Debug */
-    height: 400px;
+    height: 500px;
     background-color: rgb(171, 207, 231);
 }   
 
 .column-center {
-    width: 58%;
+    width: 56%;
     float: left;
     margin: 0 2%;
     /* Debug */
-    height: 400px;
+    height: 500px;
     background-color: rgb(171, 207, 231);
 }
 
 .column-dx {
-    width: 19%;
+    width: 20%;
     float: left;
     /* Debug */
-    height: 400px;
+    height: 500px;
     background-color: rgb(171, 207, 231);
 }
