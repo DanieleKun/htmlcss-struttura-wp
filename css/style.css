@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 5%;
+}
+
+header {
+    /* Debug */
+    height: 100px;
+    background-color: rgb(229, 121, 230);
+}
+
+footer {
+    /* Debug */
+    height: 50px;
+    background-color: rgb(136, 1, 254);
+}
+
+.container {
+    /* Debug */
+    height: 300px;
+    background-color: rgb(225, 214, 122);
+
+    margin: 2% 0;
+}
+
+.table-title {
+    height: 70px;
+    background-color: rgb(171, 207, 231);
+}
