@@ -8,6 +8,12 @@ body {
     padding: 0 5%;
 }
 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 header {
     /* Debug */
     height: 100px;
@@ -15,20 +21,53 @@ header {
 }
 
 footer {
+    margin-top: 1%;
     /* Debug */
     height: 50px;
     background-color: rgb(136, 1, 254);
 }
 
+
 .container {
+    margin: 2% 0;
     /* Debug */
     height: 300px;
     background-color: rgb(225, 214, 122);
-
-    margin: 2% 0;
 }
 
-.table-title {
+.row-title {
+    margin-bottom: 1%;
+    /* Debug */
     height: 70px;
+    background-color: rgb(171, 207, 231);
+}
+
+/* debug */
+/* .row {
+    border: solid 1px red;
+} */
+
+.column-sx {
+    width: 19%;
+    float: left;
+    /* Debug */
+    height: 400px;
+    background-color: rgb(171, 207, 231);
+}   
+
+.column-center {
+    width: 58%;
+    float: left;
+    margin: 0 2%;
+    /* Debug */
+    height: 400px;
+    background-color: rgb(171, 207, 231);
+}
+
+.column-dx {
+    width: 19%;
+    float: left;
+    /* Debug */
+    height: 400px;
     background-color: rgb(171, 207, 231);
 }
